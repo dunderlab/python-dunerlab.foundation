@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dunderlab-foundation"
+version = "0.2a5"
+description = ""
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "BSD-2-Clause" }
+authors = [
+    { name = "Yeison Cardona", email = "yencardonaal@unal.edu.co" }
+]
+maintainers = [
+    { name = "Yeison Cardona", email = "yencardonaal@unal.edu.co" }
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Software Development :: Embedded Systems",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+
+dependencies = [
+    "docker",
+    "radiant-framework",
+    "colorama",
+    "chaski-confluent",
+    "netifaces",
+    "psutil"
+]
+
+[project.urls]
+"Repository" = "https://github.com/dunderlab/python-dunerlab.foundation"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["foundation"]
+
+[project.scripts]
+foundation_status = "foundation.scripts.foundation_status:main"
+foundation_logs = "foundation.scripts.foundation_logs:main"
+foundation_worker = "foundation.scripts.foundation_worker:main"

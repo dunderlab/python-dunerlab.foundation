@@ -1,0 +1,17 @@
+{% extends "templates/index.html" %}
+{% autoescape None %}
+
+{% block html_head %}
+
+{% end %}
+
+
+{% block module_init %}
+from browser import window, document
+
+# Disable right click
+document.bind('contextmenu', lambda event: event.preventDefault())
+
+# Run API
+module = {{class_}}(None, {{python_}})
+{% end %}

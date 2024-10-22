@@ -1,0 +1,2 @@
+chaski-confluent==0.1a3
+cryptography

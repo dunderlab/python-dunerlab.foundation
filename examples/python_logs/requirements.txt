@@ -1,0 +1,4 @@
+dunderlab-foundation==0.1a18
+chaski-confluent==0.1a4
+cryptography
+requests

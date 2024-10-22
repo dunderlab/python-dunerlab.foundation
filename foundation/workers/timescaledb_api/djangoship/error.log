@@ -1,0 +1,52 @@
+[Fri Sep 01 00:45:13.982047 2023] [wsgi:error] [pid 90:tid 140541542418112] [client 10.0.0.2:56550] /app/venv311/lib/python3.11/site-packages/dunderlab/django/timescaledbapp/views.py:3: UserWarning: NumPy was imported from a Python sub-interpreter but NumPy does not properly support sub-interpreters. This will likely work for most users but might cause hard to track down issues or subtle bugs. A common user of the rare sub-interpreter feature is wsgi which also allows single-interpreter mode.
+[Fri Sep 01 00:45:13.982094 2023] [wsgi:error] [pid 90:tid 140541542418112] [client 10.0.0.2:56550] Improvements in the case of bugs are welcome, but is not on the NumPy roadmap, and full support may require significant effort to achieve.
+[Fri Sep 01 00:45:13.982098 2023] [wsgi:error] [pid 90:tid 140541542418112] [client 10.0.0.2:56550]   import numpy as np
+[Fri Sep 01 00:48:16.280923 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.0.2:54987] /app/venv311/lib/python3.11/site-packages/dunderlab/django/timescaledbapp/views.py:3: UserWarning: NumPy was imported from a Python sub-interpreter but NumPy does not properly support sub-interpreters. This will likely work for most users but might cause hard to track down issues or subtle bugs. A common user of the rare sub-interpreter feature is wsgi which also allows single-interpreter mode.
+[Fri Sep 01 00:48:16.280949 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.0.2:54987] Improvements in the case of bugs are welcome, but is not on the NumPy roadmap, and full support may require significant effort to achieve.
+[Fri Sep 01 00:48:16.280953 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.0.2:54987]   import numpy as np
+[Fri Sep 01 00:48:17.257860 2023] [wsgi:error] [pid 89:tid 140540909704896] [client 10.0.0.2:54988] /app/venv311/lib/python3.11/site-packages/dunderlab/django/timescaledbapp/views.py:3: UserWarning: NumPy was imported from a Python sub-interpreter but NumPy does not properly support sub-interpreters. This will likely work for most users but might cause hard to track down issues or subtle bugs. A common user of the rare sub-interpreter feature is wsgi which also allows single-interpreter mode.
+[Fri Sep 01 00:48:17.257885 2023] [wsgi:error] [pid 89:tid 140540909704896] [client 10.0.0.2:54988] Improvements in the case of bugs are welcome, but is not on the NumPy roadmap, and full support may require significant effort to achieve.
+[Fri Sep 01 00:48:17.257888 2023] [wsgi:error] [pid 89:tid 140540909704896] [client 10.0.0.2:54988]   import numpy as np
+[Fri Sep 01 00:48:38.373168 2023] [wsgi:error] [pid 194:tid 140541345863360] [client 10.0.0.2:54992] /app/venv311/lib/python3.11/site-packages/dunderlab/django/timescaledbapp/views.py:3: UserWarning: NumPy was imported from a Python sub-interpreter but NumPy does not properly support sub-interpreters. This will likely work for most users but might cause hard to track down issues or subtle bugs. A common user of the rare sub-interpreter feature is wsgi which also allows single-interpreter mode.
+[Fri Sep 01 00:48:38.373195 2023] [wsgi:error] [pid 194:tid 140541345863360] [client 10.0.0.2:54992] Improvements in the case of bugs are welcome, but is not on the NumPy roadmap, and full support may require significant effort to achieve.
+[Fri Sep 01 00:48:38.373199 2023] [wsgi:error] [pid 194:tid 140541345863360] [client 10.0.0.2:54992]   import numpy as np
+[Fri Sep 01 01:25:33.507807 2023] [wsgi:error] [pid 90:tid 140540104398528] [client 10.0.1.78:46726] Unauthorized: /timescaledbapp/
+[Fri Sep 01 01:25:36.366821 2023] [wsgi:error] [pid 88:tid 140540213438144] [client 10.0.1.78:46730] Unauthorized: /timescaledbapp/
+[Fri Sep 01 01:25:40.617137 2023] [wsgi:error] [pid 89:tid 140540112791232] [client 10.0.1.78:51738] Unauthorized: /timescaledbapp/
+[Fri Sep 01 01:25:47.987760 2023] [wsgi:error] [pid 88:tid 140540121183936] [client 10.0.0.2:40996] Method Not Allowed: /timescaledbapp/api/token/
+[Fri Sep 01 01:34:35.473097 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524] Internal Server Error: /timescaledbapp/timeserie/
+[Fri Sep 01 01:34:35.473130 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524] Traceback (most recent call last):
+[Fri Sep 01 01:34:35.473133 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Fri Sep 01 01:34:35.473135 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     response = get_response(request)
+[Fri Sep 01 01:34:35.473137 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]                ^^^^^^^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473139 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Fri Sep 01 01:34:35.473141 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Sep 01 01:34:35.473142 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473144 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+[Fri Sep 01 01:34:35.473146 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     return view_func(*args, **kwargs)
+[Fri Sep 01 01:34:35.473148 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473149 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+[Fri Sep 01 01:34:35.473151 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     return self.dispatch(request, *args, **kwargs)
+[Fri Sep 01 01:34:35.473153 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473154 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+[Fri Sep 01 01:34:35.473156 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     response = self.handle_exception(exc)
+[Fri Sep 01 01:34:35.473158 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473159 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Fri Sep 01 01:34:35.473161 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     self.raise_uncaught_exception(exc)
+[Fri Sep 01 01:34:35.473163 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Fri Sep 01 01:34:35.473165 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     raise exc
+[Fri Sep 01 01:34:35.473166 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+[Fri Sep 01 01:34:35.473168 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     response = handler(request, *args, **kwargs)
+[Fri Sep 01 01:34:35.473170 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473171 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]   File "/app/venv311/lib/python3.11/site-packages/dunderlab/django/timescaledbapp/views.py", line 307, in list
+[Fri Sep 01 01:34:35.473173 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]     channel = channel_dict[channel_label]
+[Fri Sep 01 01:34:35.473177 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524]               ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+[Fri Sep 01 01:34:35.473179 2023] [wsgi:error] [pid 88:tid 140541446575808] [client 10.0.1.78:59524] KeyError: 'ch-01'
+[Fri Sep 01 01:40:45.273906 2023] [wsgi:error] [pid 89:tid 140541454968512] [client 10.0.0.2:51740] Bad Request: /timescaledbapp/timeserie/
+[Fri Sep 01 01:41:42.483020 2023] [wsgi:error] [pid 89:tid 140541429790400] [client 10.0.0.2:54179] Bad Request: /timescaledbapp/timeserie/
+[Fri Sep 01 01:43:40.290381 2023] [wsgi:error] [pid 88:tid 140541429790400] [client 10.0.0.2:49364] Bad Request: /timescaledbapp/timeserie/
+[Fri Sep 01 01:46:41.140415 2023] [wsgi:error] [pid 90:tid 140541542418112] [client 10.0.0.2:49366] Bad Request: /timescaledbapp/timeserie/
+[Fri Sep 01 01:46:45.109398 2023] [wsgi:error] [pid 90:tid 140541438183104] [client 10.0.0.2:49368] Bad Request: /timescaledbapp/timeserie/
+[Fri Sep 01 01:47:35.452777 2023] [wsgi:error] [pid 88:tid 140541413004992] [client 10.0.0.2:49370] Bad Request: /timescaledbapp/timeserie/
+[Fri Sep 01 01:53:30.897393 2023] [wsgi:error] [pid 194:tid 140541278721728] [client 10.0.0.2:51492] Not Found: /admin
+[Fri Sep 01 02:07:02.144928 2023] [wsgi:error] [pid 88:tid 140540104398528] [client 10.0.0.2:54371] Forbidden: /timescaledbapp/timeserie/

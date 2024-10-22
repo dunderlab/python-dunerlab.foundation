@@ -1,0 +1,30 @@
+
+body {
+    background-color: #F0E9FA;
+    margin: 0;
+    padding: 0;
+}
+
+#radiant-content {
+        display: flex;
+
+}
+
+#radiant-drawer {
+    width: 400px;
+    height: 100vh;
+}
+
+#radiant-main_area {
+    background-color: #FDF6FF;
+
+    height: calc(100vh - 64px - 30px - 5px);
+    width: 100%;
+    margin-top: 64px;
+
+    margin: 15px;
+    margin-top: 64px;
+    border-radius: 28px;
+    padding: 10px;
+
+}
